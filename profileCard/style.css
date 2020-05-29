@@ -1,0 +1,136 @@
+/********** BASIC *********/
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.text-muted {
+    color: #718797;
+}
+
+/********** PROFILE ************/
+
+.card {
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.profile {
+    background-color: #fff;
+    width: 840px;
+    height: 600px;
+    border-radius: 30px;
+    padding: 30px;
+    border: 0;
+}
+
+.profile .head {
+    display: flex;
+    flex-direction: row;
+}
+
+.head .image {
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.responsive {
+    width: 300px;
+    border: 0;
+}
+
+.head .info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+
+.head .info .name {
+    font-size: 3rem;
+    margin-bottom: 18px;
+    font-weight: 700;
+}
+
+.head .info .stats {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    margin-bottom: 38px;
+    background-color: #f2f5f8;
+}
+
+.head .info .stats .item {
+    font-size: 2.3rem;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    min-width: 145px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.stats .item span {
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.head .info .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.buttons .item {
+    width: 45%;
+}
+
+.buttons .btn {
+    padding: 15px 20px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-size: 1.7rem;
+    width: 100%;
+}
+
+.buttons .message .btn{
+    border: 3px solid #f2f5f8;
+    transition: 0.3s all ease-in;
+}
+
+.buttons .message .btn:hover {
+    background-color: #f2f5f8;
+}
+
+.buttons .follow .btn{
+    background-color: #5374ff;
+    color: #fff;
+}
+
+.profile .bio {
+    margin-top: 30px;
+    font-size: 1.5rem;
+}
+
+/* .img-neu {
+    border-radius: 139px;
+    background: #55b9f3;
+    box-shadow: inset 18px 18px 36px #4392c0, 
+                inset -18px -18px 36px #67e0ff;
+}
+
+.btn-neu {
+    border-radius: 9px;
+    background: #55b9f3;
+    box-shadow:  8px 8px 16px #4ba3d6, 
+                -8px -8px 16px #5fcfff;
+} */
+
+.card-neu {
+    background: #ffffff;
+    box-shadow:  20px 20px 60px #d9d9d9, 
+                -20px -20px 60px #ffffff;
+}
